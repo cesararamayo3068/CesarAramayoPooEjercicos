@@ -33,4 +33,10 @@ public class Perro {
      public void Ladrar(){
             System.out.println("Guau");
         }
+     
+     //Constructor que reciba Color 
+     //Ejercicio 4 Contructor que reciba uno de los parametros 
+    public Perro(String color){
+        this.color= color;
+    }
 }

@@ -42,6 +42,13 @@ public class cuentaBancaria {
     public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
+    //Constructor que recibe los 3 parametros  
+     //Ejercicio 6 Contructor que reciba los 3 parametros 
+    public cuentaBancaria  (String nombreTitular  , String tipoDeCuenta ,int saldo){
+        this.nombreTitular= nombreTitular;
+        this.tipoDeCuenta=tipoDeCuenta;
+        this.saldo=saldo;
+    }
 
     public void extraer() {
         

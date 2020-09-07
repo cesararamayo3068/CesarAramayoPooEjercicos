@@ -35,11 +35,17 @@ public class Auto {
         
          this.kilometraje = kilometraje;
     }
-    
+     //Constructor que recibe los 3 parametros  
+     //Ejercicio 5 Contructor que reciba los 3 parametros 
+    public Auto (String marca , String modelo ,int kilometraje){
+        this.marca= marca;
+        this.modelo=modelo;
+        this.kilometraje=kilometraje;
+    }
   
      
      public void estadoAuto() {
-           this.kilometraje=9400;
+          // this.kilometraje=9400;
          if (this.kilometraje==0){
          System.out.println("ESTA NUEVO");
          
@@ -52,6 +58,7 @@ public class Auto {
          }else if (this.kilometraje>10000){
           System.out.println("BASTANTE USADO");
      }
+        
          
      }
 }

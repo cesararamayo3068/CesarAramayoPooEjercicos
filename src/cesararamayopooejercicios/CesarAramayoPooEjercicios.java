@@ -25,18 +25,18 @@ public class CesarAramayoPooEjercicios {
         switch (opcion) {
             case 1:
                 Perro perro;
-                perro = new Perro();
+                perro = new Perro("Negro");
                 perro.Ladrar();
                 break;
             case 2:
                 Auto auto;
-                auto = new Auto();
+                auto = new Auto("Ford", "Falcon", 3000);
                 auto.estadoAuto();
 
                 break;
             case 3:
                 cuentaBancaria Cuenta;
-                Cuenta = new cuentaBancaria();
+                Cuenta = new cuentaBancaria("Juan Cortez ","Caja de Ahorro", 3000);
                 Cuenta.extraer();
 
                 break;
